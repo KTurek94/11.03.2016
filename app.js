@@ -1,4 +1,4 @@
-var LICZBA_KAFELKOW = 2;
+var LICZBA_KAFELKOW = 4;
 var KAFELKI_NA_RZAD = 5;
 var kafelki = [];
 var pobraneKafelki = [];
@@ -8,14 +8,7 @@ var paryKafelkow = 0;
 var obrazkiKafelkow = [
     'title_1.png',
     'title_2.png',
-    'title_3.png',
-    'title_4.png',
-    'title_5.png',
-    'title_6.png',
-    'title_7.png',
-    'title_8.png',
-    'title_9.png',
-    'title_10.png'
+    
 ];
  
 function startGame() {
@@ -66,9 +59,9 @@ function klikniecieKafelka(element) {
         if (pobraneKafelki.length == 2) {
             moznaBrac = false;
             if (pobraneKafelki[0].data('cardType') == pobraneKafelki[1].data('cardType')) {
-                setTimeout('usunKafelki()', 500);
+                setTimeout('usunKafelki()', 1000);
             } else {
-                setTimeout('zresetujKafelki()', 500);
+                setTimeout('zresetujKafelki()', 1000);
             }
  
             liczbaRuchow++;
