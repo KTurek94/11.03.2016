@@ -44,7 +44,7 @@ function startGame() {
         });
         tile.bind('click',function() {klikniecieKafelka($(this))});
     }
-    $('.moves').html(liczbaRuchow);
+    $('.ruchy').html(liczbaRuchow);
 }
  
 function klikniecieKafelka(element) {
@@ -65,7 +65,7 @@ function klikniecieKafelka(element) {
             }
  
             liczbaRuchow++;
-            $('.moves').html(liczbaRuchow)
+            $('.ruchy').html(liczbaRuchow)
         }
     }
 }

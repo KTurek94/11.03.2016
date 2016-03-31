@@ -1,11 +1,15 @@
 
 body {
     padding: 10px;
+	background-image: url("tlo.jpg");
+	text-align: center;
 }
 
 .plansza {
+	
+	 margin: 0 auto;
     position: relative;
-    background: #7f7f7f;
+    background: #990026;
     overflow: hidden;
     width: 880px;
     height: 710px;
@@ -23,3 +27,6 @@ body {
     border-radius: 5px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2), inset 1px 1px 1px #fff, 1px 1px 3px rgba(0,0,0,1);
 }
+
+
+
