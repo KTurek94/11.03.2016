@@ -1,5 +1,5 @@
-var LICZBA_KAFELKOW = 4;
-var KAFELKI_NA_RZAD = 5;
+var LICZBA_KAFELKOW = 6;
+var KAFELKI_NA_RZAD = 10;
 var kafelki = [];
 var pobraneKafelki = [];
 var moznaBrac = true;
@@ -8,6 +8,7 @@ var paryKafelkow = 0;
 var obrazkiKafelkow = [
     'title_1.png',
     'title_2.png',
+	'title_3.png',
     
 ];
  
