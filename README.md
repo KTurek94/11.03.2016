@@ -1,4 +1,4 @@
-"Parówka"
+[html]"Parówka"
 
 Gra będzie polegać na znalezieniu pary w ukrytych obrazkach, celem gry jest odnalezienie wszystkich par w jak najmniejszej ilości ruchów. 
 
@@ -15,5 +15,5 @@ Plan
 7.	Usuwanie z planszy dwóch takich samych kafelków
 8.	Stworzenie systemu zliczającego próby
 9.	Testy, poprawienie błędów oraz wyglądu aplikacji
-
+[/html]
 
