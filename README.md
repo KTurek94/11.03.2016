@@ -1,5 +1,4 @@
-[html]"Parówka"
-
+[b]"Parówka"[/b]
 Gra będzie polegać na znalezieniu pary w ukrytych obrazkach, celem gry jest odnalezienie wszystkich par w jak najmniejszej ilości ruchów. 
 
 Język: HTML / CSS / Javascript
@@ -15,5 +14,3 @@ Plan
 7.	Usuwanie z planszy dwóch takich samych kafelków
 8.	Stworzenie systemu zliczającego próby
 9.	Testy, poprawienie błędów oraz wyglądu aplikacji
-[/html]
-
