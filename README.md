@@ -1,4 +1,4 @@
-"Parówka"
+**"Parówka"**
 Gra będzie polegać na znalezieniu pary w ukrytych obrazkach, celem gry jest odnalezienie wszystkich par w jak najmniejszej ilości ruchów. 
 
 Język: HTML / CSS / Javascript
