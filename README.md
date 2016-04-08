@@ -4,7 +4,7 @@
 ## Język: HTML / CSS / Javascript
  Wymagania: Sprawna przeglądarka ( Chrome)
 
- Plan
+### Plan
 1.	Stworzenie szkieletu (ustalenie położenia oraz rozmiaru pola)
 2.	Stworzenie przycisku odpowiadającego za rozpoczęcie ("START")
 3.	Stworzenie pierwszych kafelków
