@@ -86,7 +86,9 @@ function usunKafelki() {
         pobraneKafelki = new Array();
     });
 }
- 
+ //Jeżeli wybrane kafelki się różnią od siebie zostaną zakryte wybranym wcześniej obrazkiem
+                                             //       |
+											//        V
 function zresetujKafelki() {
     pobraneKafelki[0].css({'background-image':'url(title.png)'})
     pobraneKafelki[1].css({'background-image':'url(title.png)'})
