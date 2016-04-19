@@ -62,6 +62,8 @@ function klikniecieKafelka(element) {
  
         if (pobraneKafelki.length == 2) {
             moznaBrac = false;
+			//                jeżeli      |            jest taki sam jak         | oznacza, że elementy są takie same
+			         //  odpala się       V      wtedy funkcja "usunKafelki"     V     jeżeli nie są takie same włacza sie funkcja "zresetujKafelki"     
             if (pobraneKafelki[0].data('cardType') == pobraneKafelki[1].data('cardType')) {
                 setTimeout('usunKafelki()', 1000);
             } else {
