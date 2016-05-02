@@ -1,15 +1,17 @@
-var LICZBA_KAFELKOW = 8;
-var KAFELKI_NA_RZAD = 10;
+var LICZBA_KAFELKOW = 12;
+var KAFELKI_NA_RZAD = 4;
 var kafelki = [];
 var pobraneKafelki = [];
 var moznaBrac = true;
 var liczbaRuchow = 0;
 var paryKafelkow = 0;
 var obrazkiKafelkow = [
-    'title_1.png',
+	'title_1.png',
     'title_2.png',
 	'title_3.png',
 	'test1.png',
+	'test2.png',
+	'test3.png',
 	
     
 ];
