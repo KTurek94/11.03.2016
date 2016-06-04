@@ -1,3 +1,6 @@
+//ŁATWY
+
+
 var LICZBA_KAFELKOW = 4;
 var KAFELKI_NA_RZAD = 2;
 var kafelki = [];

@@ -1,5 +1,5 @@
-var LICZBA_KAFELKOW = 12;
-var KAFELKI_NA_RZAD = 10;
+var LICZBA_KAFELKOW = 18;     //80
+var KAFELKI_NA_RZAD = 10;      //10
 var kafelki = [];
 var pobraneKafelki = [];
 var moznaBrac = true;
@@ -12,7 +12,40 @@ var obrazkiKafelkow = [
 	'test1.png',
 	'test2.png',
 	'test3.png',
-    
+	'test4.png',
+	'test5.png',
+	'test6.png',
+	'test7.png',
+	'test8.png',
+	'test9.png',
+	'test10.png',
+	'test11.png',
+	'test12.png',
+	'test13.png',
+	'test14.png',
+	'test15.png',
+	'test16.png',
+	'test17.png',
+	'test18.png',
+	'test19.png',
+	'test20.png',
+	'test21.png',
+	'test22.png',
+	'test23.png',
+	'test24.png',
+	'test25.png',
+	'test26.png',
+	'test27.png',
+	'test28.png',
+	'test29.png',
+	'test30.png',
+	'test31.png',
+	'test32.png',
+	'test33.png',
+	'test34.png',
+	'test35.png',
+	'test36.png',
+	'test37.png',  
 ];
  
 function startGame() {

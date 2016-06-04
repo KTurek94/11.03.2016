@@ -1,3 +1,5 @@
+//ŚREDNI
+
 var LICZBA_KAFELKOW = 12;
 var KAFELKI_NA_RZAD = 4;
 var kafelki = [];
