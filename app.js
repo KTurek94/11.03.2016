@@ -1,4 +1,4 @@
-var LICZBA_KAFELKOW = 18;     //80
+var LICZBA_KAFELKOW = 80;     //80
 var KAFELKI_NA_RZAD = 10;      //10
 var kafelki = [];
 var pobraneKafelki = [];
@@ -86,8 +86,8 @@ function startGame() {
  
 function klikniecieKafelka(element) {
     if (moznaBrac) {
-        //jeżeli jeszcze nie pobraliśmy 1 elementu
-        //lub jeżeli index tego elementu nie istnieje w pobranych...
+        //je?eli jeszcze nie pobrali?my 1 elementu
+        //lub je?eli index tego elementu nie istnieje w pobranych...
         if (!pobraneKafelki[0] || (pobraneKafelki[0].data('index') != element.data('index'))) {
             pobraneKafelki.push(element);
             element.css({'background-image' : 'url('+obrazkiKafelkow[element.data('cardType')]+')'})    
@@ -95,8 +95,8 @@ function klikniecieKafelka(element) {
  
         if (pobraneKafelki.length == 2) {
             moznaBrac = false;
-			//                jeżeli      |            jest taki sam jak         | oznacza, że elementy są takie same
-			         //  odpala się       V      wtedy funkcja "usunKafelki"     V     jeżeli nie są takie same włacza sie funkcja "zresetujKafelki"     
+			//                je?eli      |            jest taki sam jak         | oznacza, ?e elementy s? takie same
+			         //  odpala si?       V      wtedy funkcja "usunKafelki"     V     je?eli nie s? takie same w?acza sie funkcja "zresetujKafelki"     
             if (pobraneKafelki[0].data('cardType') == pobraneKafelki[1].data('cardType')) {
                 setTimeout('usunKafelki()', 1000);
             } else {
@@ -118,13 +118,13 @@ function usunKafelki() {
  
         paryKafelkow++;
         if (paryKafelkow >= LICZBA_KAFELKOW / 2) {
-            alert('Ukończyłeś Parówkę, BRAWO!');
+            alert('Uko?czy?e? Parówk?, BRAWO!');
         }
         moznaBrac = true;
         pobraneKafelki = new Array();
     });
 }
- //Jeżeli wybrane kafelki się różnią od siebie zostaną zakryte wybranym wcześniej obrazkiem
+ //Je?eli wybrane kafelki si? ró?ni? od siebie zostan? zakryte wybranym wcze?niej obrazkiem
                                              //       |
 											//        V
 function zresetujKafelki() {
